@@ -29,7 +29,7 @@
                                                           [UIFont fontWithName:@"HelveticaNeue-CondensedBlack" size:25.0], NSFontAttributeName, nil]];
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    [defaults setValue:@"http://27.147.149.178:9030/nonpayers/public/index.php/" forKey:@"baseurl"];
+    [defaults setValue:@"http://139.59.166.43/nonpayers/public/" forKey:@"baseurl"];
     
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
